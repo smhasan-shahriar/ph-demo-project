@@ -42,6 +42,9 @@
     color: white;
     background-image: url("./images/background.png"), 
     linear-gradient(45deg, rgb(9, 8, 8), rgb(53, 53, 53));
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 
 }
 
@@ -61,4 +64,49 @@
     color: white;
     border: none; 
 
+}
+
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding: 10px; 
+}
+
+.about-title{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.box{
+    width: 230px;
+    height: 280px;
+    box-shadow: 4px 4px 15px grey;
+    background-color: black;
+    text-align: center;
+    padding: 15px;
+    color: white;
+}
+.icon{
+    width: 100px;
+}
+
+.box-btn{
+    background-color: grey;
+    margin-top: 10px;
+}
+
+.box-title{
+    padding: 10px; 
+}
+
+.box-description{
+    padding: 5px; 
+}
+
+.service-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
 }
