@@ -82,7 +82,7 @@
 .box{
     width: 230px;
     height: 280px;
-    box-shadow: 4px 4px 15px grey;
+    box-shadow: 4px 4px 60px grey;
     background-color: black;
     text-align: center;
     padding: 15px;
@@ -109,4 +109,60 @@
     display: flex;
     justify-content: space-around;
     padding: 20px;
+    margin: 20px; 
+
+}
+
+.service-main{
+    background-image: url('images/background.png'),
+    linear-gradient(45deg, rgb(13, 12, 12), rgb(46, 44, 44));
+    color: white; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+ 
+}
+
+.service-title{
+    margin-top: 30px; 
+}
+
+footer{
+    background-color: rgb(5, 5, 5);
+    color: white; 
+    width: 100%;
+    height: 450px; 
+
+
+}
+
+.mega-container{
+    display: flex; 
+    margin: 0 auto;
+    justify-content: space-between;
+    width: 80%;
+    align-items: center;
+    height: 400px; 
+
+}
+.info-box{
+    width: 300px;
+    line-height: 2;
+    height: 200px;
+    
+}
+
+.narrow-box{
+    width: 150px; 
+}
+.useful-link{
+    display: block; 
+    color: white; 
+    text-decoration: none;
+}
+
+.footer-p{
+    width: 100%;
+    text-align: center; 
+    margin-top: 10px; 
 }
