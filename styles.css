@@ -38,7 +38,7 @@
     justify-content: space-around;
     align-items: center;
     height: 100vh;
-    border: 2px solid gray;
+
     color: white;
     background-image: url("./images/background.png"), 
     linear-gradient(45deg, rgb(9, 8, 8), rgb(53, 53, 53));
